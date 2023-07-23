@@ -1,8 +1,8 @@
 {
-  "name": "app-shell",
-  "description": "Webcomponent app-shell following open-wc recommendations",
+  "name": "centrakor-test",
+  "description": "Page test",
   "license": "MIT",
-  "author": "app-shell",
+  "author": "Clément Maisonhaute",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -57,6 +57,8 @@
       "no-plusplus": "off",
       "no-continue": "off",
       "no-param-reassign": "off",
+      "class-methods-use-this": "off",
+      "no-return-assign": "off",
       "@typescript-eslint/no-unused-vars": [
         "error"
       ],
