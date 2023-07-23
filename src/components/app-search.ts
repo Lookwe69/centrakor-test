@@ -22,6 +22,11 @@ export class AppSearch extends LitElement {
       padding: 1em 2em;
       gap: 0.5em;
 
+      @media (width <= 640px) {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+
       .input {
         --color-border: black;
         --background-color: white;

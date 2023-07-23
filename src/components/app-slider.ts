@@ -15,7 +15,7 @@ export class AppSlider extends LitElement {
       flex-direction: column;
       align-items: center;
       gap: 1em;
-      --slider-width: min(12em, 90dvw);
+      --slider-width: min(12em, 85dvw);
     }
     .slider {
       display: flex;

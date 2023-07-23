@@ -20,6 +20,7 @@ export class AppButton extends LitElement {
     button {
       all: unset;
       appearance: none;
+      box-sizing: border-box;
       cursor: pointer;
       display: flex;
       justify-content: center;

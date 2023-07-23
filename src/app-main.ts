@@ -28,6 +28,7 @@ export class AppMain extends LitElement {
       section {
         display: flex;
         justify-content: center;
+        overflow: hidden;
         padding: 3em;
 
         @media (width <= 640px) {
@@ -56,7 +57,7 @@ export class AppMain extends LitElement {
           justify-content: center;
           align-items: center;
           flex-wrap: wrap;
-          gap: 4em;
+          gap: 2em 4em;
 
           & > * {
             z-index: 1;
