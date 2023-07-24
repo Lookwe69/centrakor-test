@@ -80,31 +80,35 @@ export class AppFooter extends LitElement {
 
   render() {
     return html`
-            <footer>
-                <div class="container" id="zzzzzzz">
-                    <div><div class="logo"><img alt="ctk logo" src=${logo} /></div></div>
-                    <div class="infos">
-                        <h3>QUI SOMMES-NOUS ?</h3>
-                        <app-button>Découvrez Centrakor</app-button>
-                        <span>et suivez nos aventures sur<br/>les réseaux sociaux</span>
-                        <div class="social-networks">
-                            <app-link href="">
-                                <app-icon icon="facebook-square"></app-icon>
-                            </app-link>
-                            <app-link href="">
-                                <app-icon icon="instagram"></app-icon>
-                            </app-link>
-                            <app-link href="">
-                                <app-icon icon="pinterest-square"></app-icon>
-                            </app-link>
-                            <app-link href="">
-                                <app-icon icon="tiktok"></app-icon>
-                            </app-link>
-                        </div>
-                    </div>
-                </div>
-                <img class="fond-footer" alt="" src=${fondFooter}></div>
-            </footer>
-        `;
+      <footer>
+        <div class="container" id="zzzzzzz">
+          <div>
+            <div class="logo">
+              <img alt="ctk logo" src=${logo} loading="lazy" />
+            </div>
+          </div>
+          <div class="infos">
+            <h3>QUI SOMMES-NOUS ?</h3>
+            <app-button>Découvrez Centrakor</app-button>
+            <span>et suivez nos aventures sur<br />les réseaux sociaux</span>
+            <div class="social-networks">
+              <app-link href="">
+                <app-icon icon="facebook-square"></app-icon>
+              </app-link>
+              <app-link href="">
+                <app-icon icon="instagram"></app-icon>
+              </app-link>
+              <app-link href="">
+                <app-icon icon="pinterest-square"></app-icon>
+              </app-link>
+              <app-link href="">
+                <app-icon icon="tiktok"></app-icon>
+              </app-link>
+            </div>
+          </div>
+        </div>
+        <img class="fond-footer" alt="" src=${fondFooter} loading="lazy" />
+      </footer>
+    `;
   }
 }

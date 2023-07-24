@@ -316,7 +316,11 @@ export class AppMain extends LitElement {
               <app-slider>
                 ${bottleList.map(
                   bottle => html`
-                    <img src=${bottle.imageSrc} alt=${bottle.imageAlt} />
+                    <img
+                      src=${bottle.imageSrc}
+                      alt=${bottle.imageAlt}
+                      loading="lazy"
+                    />
                   `
                 )}
               </app-slider>
@@ -331,7 +335,11 @@ export class AppMain extends LitElement {
               <app-slider>
                 ${armchairList.map(
                   armchair => html`
-                    <img src=${armchair.imageSrc} alt=${armchair.imageAlt} />
+                    <img
+                      src=${armchair.imageSrc}
+                      alt=${armchair.imageAlt}
+                      loading="lazy"
+                    />
                   `
                 )}
               </app-slider>
